@@ -1,0 +1,78 @@
+========================================
+    TOMAS BOT - QUICK START GUIDE
+========================================
+
+🎯 STEP 1: Install Python
+- Double-click: INSTALL_PYTHON.bat
+- Follow the instructions to install Python
+- Restart your computer
+
+🎯 STEP 2: Start the Bot (Testing Mode)
+- Double-click: START_BOT.bat
+- Wait for setup to complete
+- Bot will start automatically in SAFE testing mode
+
+🎯 STEP 3: Configure Live Trading (Optional)
+- Double-click: SETUP_LIVE_TRADING.bat
+- Enter your API credentials
+- Double-click: START_BOT_LIVE.bat
+
+🎯 STEP 4: Emergency Stop (If Needed)
+- Double-click: EMERGENCY_STOP.bat
+- This immediately stops all trading
+
+========================================
+    IMPORTANT FILES
+========================================
+
+🚀 START_BOT.bat              - Start bot in testing mode
+💰 START_BOT_LIVE.bat         - Start bot in live trading mode
+⚙️ SETUP_LIVE_TRADING.bat     - Configure live trading
+🛑 EMERGENCY_STOP.bat         - Emergency stop all trading
+📖 CUSTOMER_README.md         - Detailed guide
+🐍 INSTALL_PYTHON.bat         - Python installation helper
+
+========================================
+    WHAT THE BOT DOES
+========================================
+
+✅ Monitors Telegram groups for trading signals
+✅ Executes trades automatically
+✅ Manages risk with stop-loss orders
+✅ Scales positions when profitable
+✅ Sends notifications via Telegram
+✅ Provides daily/weekly reports
+
+========================================
+    SAFETY NOTES
+========================================
+
+⚠️ TESTING MODE (START_BOT.bat)
+- Safe testing with fake money
+- No real trades executed
+- Perfect for learning
+
+⚠️ LIVE TRADING MODE (START_BOT_LIVE.bat)
+- Executes real trades with real money
+- Only use after thorough testing
+- Start with small amounts
+- Monitor closely
+
+========================================
+    GETTING HELP
+========================================
+
+📖 Read: CUSTOMER_README.md for detailed instructions
+🆘 Check console logs for error messages
+📞 Contact support with specific error details
+
+========================================
+    READY TO START!
+========================================
+
+1. Install Python (if needed)
+2. Double-click START_BOT.bat
+3. Watch the bot work in testing mode
+4. Configure live trading when ready
+
+Happy Trading! 🚀 

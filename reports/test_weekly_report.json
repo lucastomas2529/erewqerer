@@ -1,0 +1,61 @@
+{
+  "period": {
+    "start_date": "2025-07-29",
+    "end_date": "2025-08-05"
+  },
+  "summary": {
+    "total_trades": 4,
+    "closed_trades": 0,
+    "total_pnl": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate": 0,
+    "avg_pnl_per_trade": 0
+  },
+  "daily_breakdown": {
+    "2025-07-29": {
+      "trades": 0,
+      "pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    },
+    "2025-07-30": {
+      "trades": 0,
+      "pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    },
+    "2025-07-31": {
+      "trades": 0,
+      "pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    },
+    "2025-08-01": {
+      "trades": 0,
+      "pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    },
+    "2025-08-02": {
+      "trades": 0,
+      "pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    },
+    "2025-08-03": {
+      "trades": 0,
+      "pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    },
+    "2025-08-04": {
+      "trades": 0,
+      "pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    }
+  },
+  "top_performing_groups": [],
+  "worst_performing_groups": []
+}

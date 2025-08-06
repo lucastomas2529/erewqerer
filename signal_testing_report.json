@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-04T13:31:59.825250",
+  "overall_success_rate": 84.61538461538461,
+  "total_tests": 13,
+  "test_results": [
+    {
+      "test_name": "Standard Formats",
+      "successful": 3,
+      "total": 4,
+      "success_rate": 75.0
+    },
+    {
+      "test_name": "Exchange Formats",
+      "successful": 3,
+      "total": 3,
+      "success_rate": 100.0
+    },
+    {
+      "test_name": "Emoji Formats",
+      "successful": 2,
+      "total": 2,
+      "success_rate": 100.0
+    },
+    {
+      "test_name": "Edge Cases",
+      "successful": 3,
+      "total": 4,
+      "success_rate": 75.0
+    }
+  ],
+  "group_stats": {
+    "premium_crypto": {
+      "total_signals": 1,
+      "successful_parses": 0,
+      "failed_parses": 0,
+      "last_signal_time": "2025-08-04T13:31:57.127618"
+    },
+    "trading_bots": {
+      "total_signals": 1,
+      "successful_parses": 0,
+      "failed_parses": 0,
+      "last_signal_time": "2025-08-04T13:31:57.135437"
+    },
+    "scalping_channel": {
+      "total_signals": 1,
+      "successful_parses": 0,
+      "failed_parses": 0,
+      "last_signal_time": "2025-08-04T13:31:57.135437"
+    },
+    "whale_alerts": {
+      "total_signals": 1,
+      "successful_parses": 0,
+      "failed_parses": 0,
+      "last_signal_time": "2025-08-04T13:31:57.135437"
+    }
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "date": "2025-08-05",
+  "summary": {
+    "total_trades": 7,
+    "closed_trades": 0,
+    "total_pnl": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "win_rate": 0,
+    "signals_received": 6,
+    "errors_occurred": 5
+  },
+  "group_stats": {
+    "Test Group": {
+      "trades": 1,
+      "total_pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    },
+    "Premium Signals": {
+      "trades": 3,
+      "total_pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    },
+    "VIP Signals": {
+      "trades": 2,
+      "total_pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    },
+    "Admin Command": {
+      "trades": 1,
+      "total_pnl": 0.0,
+      "winning_trades": 0,
+      "losing_trades": 0
+    }
+  },
+  "trades": [
+    {
+      "id": "trade_1754386104_BTCUSDT",
+      "symbol": "BTCUSDT",
+      "side": "buy",
+      "quantity": 0.001,
+      "entry_price": 67000.0,
+      "exit_price": null,
+      "sl_price": 65000.0,
+      "tp_prices": [
+        70000
+      ],
+      "order_ids": [
+        "test_order_1"
+      ],
+      "group_name": "Test Group",
+      "signal_source": "manual",
+      "entry_time": "2025-08-05T02:28:24.339552",
+      "exit_time": null,
+      "pnl": null,
+      "pnl_percentage": null,
+      "status": "open",
+      "close_reason": null,
+      "processing_time": 0.5,
+      "admin_command": true
+    },
+    {
+      "id": "trade_1754386211_BTCUSDT",
+      "symbol": "BTCUSDT",
+      "side": "buy",
+      "quantity": 0.001,
+      "entry_price": 67000.0,
+      "exit_price": null,
+      "sl_price": 65000.0,
+      "tp_prices": [
+        70000
+      ],
+      "order_ids": [
+        "order_1"
+      ],
+      "group_name": "Premium Signals",
+      "signal_source": "telegram",
+      "entry_time": "2025-08-05T02:30:11.745386",
+      "exit_time": null,
+      "pnl": null,
+      "pnl_percentage": null,
+      "status": "open",
+      "close_reason": null,
+      "processing_time": 0.5,
+      "admin_command": false
+    },
+    {
+      "id": "trade_1754386213_ETHUSDT",
+      "symbol": "ETHUSDT",
+      "side": "sell",
+      "quantity": 0.1,
+      "entry_price": 3750.0,
+      "exit_price": null,
+      "sl_price": 3800.0,
+      "tp_prices": [
+        3700,
+        3650
+      ],
+      "order_ids": [
+        "order_2"
+      ],
+      "group_name": "VIP Signals",
+      "signal_source": "telegram",
+      "entry_time": "2025-08-05T02:30:13.470336",
+      "exit_time": null,
+      "pnl": null,
+      "pnl_percentage": null,
+      "status": "open",
+      "close_reason": null,
+      "processing_time": 0.3,
+      "admin_command": false
+    },
+    {
+      "id": "trade_1754386216_SOLUSDT",
+      "symbol": "SOLUSDT",
+      "side": "buy",
+      "quantity": 1.0,
+      "entry_price": 150.0,
+      "exit_price": null,
+      "sl_price": 145.0,
+      "tp_prices": [
+        160
+      ],
+      "order_ids": [
+        "order_3"
+      ],
+      "group_name": "Premium Signals",
+      "signal_source": "manual",
+      "entry_time": "2025-08-05T02:30:16.164083",
+      "exit_time": null,
+      "pnl": null,
+      "pnl_percentage": null,
+      "status": "open",
+      "close_reason": null,
+      "processing_time": 0.8,
+      "admin_command": true
+    },
+    {
+      "id": "trade_1754387000_BTCUSDT",
+      "symbol": "BTCUSDT",
+      "side": "buy",
+      "quantity": 0.001,
+      "entry_price": 67000.0,
+      "exit_price": null,
+      "sl_price": 65000.0,
+      "tp_prices": [
+        70000
+      ],
+      "order_ids": [
+        "order_1"
+      ],
+      "group_name": "Premium Signals",
+      "signal_source": "telegram",
+      "entry_time": "2025-08-05T02:43:20.403986",
+      "exit_time": null,
+      "pnl": null,
+      "pnl_percentage": null,
+      "status": "open",
+      "close_reason": null,
+      "processing_time": 0.5,
+      "admin_command": false
+    },
+    {
+      "id": "trade_1754387003_ETHUSDT",
+      "symbol": "ETHUSDT",
+      "side": "sell",
+      "quantity": 0.1,
+      "entry_price": 3750.0,
+      "exit_price": null,
+      "sl_price": 3800.0,
+      "tp_prices": [
+        3700
+      ],
+      "order_ids": [
+        "order_2"
+      ],
+      "group_name": "VIP Signals",
+      "signal_source": "telegram",
+      "entry_time": "2025-08-05T02:43:23.455764",
+      "exit_time": null,
+      "pnl": null,
+      "pnl_percentage": null,
+      "status": "open",
+      "close_reason": null,
+      "processing_time": 0.3,
+      "admin_command": false
+    },
+    {
+      "id": "trade_1754387004_SOLUSDT",
+      "symbol": "SOLUSDT",
+      "side": "buy",
+      "quantity": 1.0,
+      "entry_price": 150.0,
+      "exit_price": null,
+      "sl_price": 145.0,
+      "tp_prices": [
+        160
+      ],
+      "order_ids": [
+        "admin_order_1"
+      ],
+      "group_name": "Admin Command",
+      "signal_source": "admin_command",
+      "entry_time": "2025-08-05T02:43:24.745346",
+      "exit_time": null,
+      "pnl": null,
+      "pnl_percentage": null,
+      "status": "open",
+      "close_reason": null,
+      "processing_time": 0.8,
+      "admin_command": true
+    }
+  ],
+  "signals": [
+    {
+      "id": "signal_1754386106_Test Group",
+      "group_name": "Test Group",
+      "signal_text": "BTCUSDT LONG 67000 65000 70000",
+      "parsed_data": {
+        "symbol": "BTCUSDT",
+        "side": "long",
+        "entry": 67000,
+        "sl": 65000,
+        "tp": [
+          70000
+        ]
+      },
+      "processing_time": 0.2,
+      "timestamp": "2025-08-05T02:28:26.133189",
+      "status": "processed",
+      "error_message": null
+    },
+    {
+      "id": "signal_1754386220_Premium Signals",
+      "group_name": "Premium Signals",
+      "signal_text": "BTCUSDT LONG 67000 65000 70000",
+      "parsed_data": {
+        "symbol": "BTCUSDT",
+        "side": "long",
+        "entry": 67000,
+        "sl": 65000,
+        "tp": [
+          70000
+        ]
+      },
+      "processing_time": 0.2,
+      "timestamp": "2025-08-05T02:30:20.126509",
+      "status": "processed",
+      "error_message": null
+    },
+    {
+      "id": "signal_1754386223_VIP Signals",
+      "group_name": "VIP Signals",
+      "signal_text": "ETHUSDT SHORT 3750 3800 3700",
+      "parsed_data": {
+        "symbol": "ETHUSDT",
+        "side": "short",
+        "entry": 3750,
+        "sl": 3800,
+        "tp": [
+          3700
+        ]
+      },
+      "processing_time": 0.1,
+      "timestamp": "2025-08-05T02:30:23.515976",
+      "status": "processed",
+      "error_message": null
+    },
+    {
+      "id": "signal_1754386226_Test Group",
+      "group_name": "Test Group",
+      "signal_text": "Invalid signal format",
+      "parsed_data": {},
+      "processing_time": 0.05,
+      "timestamp": "2025-08-05T02:30:26.884188",
+      "status": "error",
+      "error_message": "Invalid signal format"
+    },
+    {
+      "id": "signal_1754386992_Premium Signals",
+      "group_name": "Premium Signals",
+      "signal_text": "BTCUSDT LONG 67000 65000 70000",
+      "parsed_data": {
+        "symbol": "BTCUSDT",
+        "side": "long",
+        "entry": 67000,
+        "sl": 65000,
+        "tp": [
+          70000
+        ]
+      },
+      "processing_time": 0.2,
+      "timestamp": "2025-08-05T02:43:12.755166",
+      "status": "processed",
+      "error_message": null
+    },
+    {
+      "id": "signal_1754386995_VIP Signals",
+      "group_name": "VIP Signals",
+      "signal_text": "ETHUSDT SHORT 3750 3800 3700",
+      "parsed_data": {
+        "symbol": "ETHUSDT",
+        "side": "short",
+        "entry": 3750,
+        "sl": 3800,
+        "tp": [
+          3700
+        ]
+      },
+      "processing_time": 0.1,
+      "timestamp": "2025-08-05T02:43:15.779266",
+      "status": "processed",
+      "error_message": null
+    }
+  ],
+  "errors": [
+    {
+      "id": "error_1754386227_API_ERROR",
+      "error_type": "API_ERROR",
+      "error_message": "Failed to place order",
+      "timestamp": "2025-08-05T02:30:27.081955",
+      "context": {
+        "symbol": "BTCUSDT",
+        "action": "place_order"
+      },
+      "severity": "medium"
+    },
+    {
+      "id": "error_1754386227_NETWORK_ERROR",
+      "error_type": "NETWORK_ERROR",
+      "error_message": "Connection timeout",
+      "timestamp": "2025-08-05T02:30:27.206034",
+      "context": {
+        "endpoint": "/api/v1/order",
+        "timeout": 30
+      },
+      "severity": "high"
+    },
+    {
+      "id": "error_1754386231_VALIDATION_ERROR",
+      "error_type": "VALIDATION_ERROR",
+      "error_message": "Invalid symbol format",
+      "timestamp": "2025-08-05T02:30:31.513060",
+      "context": {
+        "symbol": "INVALID",
+        "expected": "BTCUSDT"
+      },
+      "severity": "low"
+    },
+    {
+      "id": "error_1754387008_API_ERROR",
+      "error_type": "API_ERROR",
+      "error_message": "Failed to place order",
+      "timestamp": "2025-08-05T02:43:28.729254",
+      "context": {
+        "symbol": "BTCUSDT",
+        "action": "place_order"
+      },
+      "severity": "medium"
+    },
+    {
+      "id": "error_1754387008_NETWORK_ERROR",
+      "error_type": "NETWORK_ERROR",
+      "error_message": "Connection timeout",
+      "timestamp": "2025-08-05T02:43:28.922807",
+      "context": {
+        "endpoint": "/api/v1/order",
+        "timeout": 30
+      },
+      "severity": "high"
+    }
+  ]
+}

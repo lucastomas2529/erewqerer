@@ -1,0 +1,19 @@
+{
+  "accuracy_data": {
+    "cryptoraketen": [
+      {
+        "symbol": "BTCUSDT",
+        "was_win": true,
+        "pnl_percent": 2.5
+      }
+    ],
+    "smart_crypto_signals": [
+      {
+        "symbol": "ETHUSDT",
+        "was_win": false,
+        "pnl_percent": -1.5
+      }
+    ]
+  },
+  "last_updated": "2025-08-01T14:09:35.086306"
+}

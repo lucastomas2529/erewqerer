@@ -1,0 +1,78 @@
+# Trading Bot Environment Configuration Template
+# Copy this file to .env and fill in your actual values
+
+# ================================
+# BITGET API CONFIGURATION
+# ================================
+# Get your API credentials from: https://www.bitget.com/api-doc
+BITGET_API_KEY=bg_c6de7f113284340cdb5dae36435224ca
+BITGET_API_SECRET=7a40824a08b42b7393c3fadb9007bd276f06d2a5df384573c8c9c4be07f1dc39
+BITGET_API_PASSPHRASE=james1234
+BITGET_SANDBOX=false  # Set to false for live trading
+
+# ================================
+# BYBIT API CONFIGURATION  
+# ================================
+# Get your API credentials from: https://www.bybit.com/app/user/api-management
+BYBIT_API_KEY=MgOknaxKRsEHdzTEv1
+BYBIT_API_SECRET=gv62DEyoyQ7qAJERVhKtRq5K1BDebrM2RaKO
+BYBIT_SANDBOX=false  # Set to false for live trading
+
+# ================================
+# TELEGRAM CONFIGURATION
+# ================================
+# Get from https://my.telegram.org/apps
+TELEGRAM_API_ID=27590479
+TELEGRAM_API_HASH="6e60321cbb996b499b6a370af62342de"
+TELEGRAM_BOT_TOKEN=8458565067:AAHruy27kUf1uDiZl9Nhvy8Af2mRmw-8ew8
+
+# Admin user ID for bot commands
+TELEGRAM_ADMIN_ID=7643573041
+
+# ================================
+# TRADING CONFIGURATION
+# ================================
+# Enable live trading (false = paper trading)
+ENABLE_LIVE_TRADING=false
+
+# Default trading parameters
+DEFAULT_LEVERAGE=10
+DEFAULT_RISK_PERCENT=2.0
+DEFAULT_IM_AMOUNT=20.0
+
+# Order configuration
+DUAL_ORDER_STEP1_RATIO=0.6  # 60% for first order, 40% for second
+ORDER_TIMEOUT_SECONDS=300   # 5 minutes
+
+# ================================
+# RISK MANAGEMENT
+# ================================
+# Maximum position size (USDT)
+MAX_POSITION_SIZE=1000
+
+# Maximum daily loss (USDT)
+MAX_DAILY_LOSS=500
+
+# Emergency stop (set to true to halt all trading)
+EMERGENCY_STOP=false
+
+# ================================
+# LOGGING & MONITORING
+# ================================
+# Log level (DEBUG, INFO, WARNING, ERROR)
+LOG_LEVEL=INFO
+
+# Enable detailed API logging
+API_DEBUG_LOGGING=false
+
+# Telegram notifications
+ENABLE_TELEGRAM_NOTIFICATIONS=true
+
+# ================================
+# NOTES
+# ================================
+# 1. Copy this file to .env and fill in your credentials
+# 2. Never commit the .env file to version control
+# 3. Start with testnet/sandbox mode enabled
+# 4. Test with small amounts before live trading
+# 5. Keep API keys secure and rotate them regularly

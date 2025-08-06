@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-08-04T16:09:37.093483",
+  "duration": 181.89884066581726,
+  "overall_success_rate": 88.88888888888889,
+  "total_tests": 27,
+  "total_successful": 24,
+  "detailed_results": [
+    {
+      "test": "Bitget Price Fetching",
+      "successful": 5,
+      "total": 5,
+      "success_rate": 100.0
+    },
+    {
+      "test": "Bitget Balance Management",
+      "successful": 1,
+      "total": 1,
+      "success_rate": 100.0
+    },
+    {
+      "test": "Bitget Position Management",
+      "successful": 1,
+      "total": 1,
+      "success_rate": 100.0
+    },
+    {
+      "test": "Bitget Order Placement",
+      "successful": 3,
+      "total": 3,
+      "success_rate": 100.0
+    },
+    {
+      "test": "Bybit Price Fetching",
+      "successful": 5,
+      "total": 5,
+      "success_rate": 100.0
+    },
+    {
+      "test": "Bybit Balance Management",
+      "successful": 1,
+      "total": 1,
+      "success_rate": 100.0
+    },
+    {
+      "test": "Bybit Position Management",
+      "successful": 1,
+      "total": 1,
+      "success_rate": 100.0
+    },
+    {
+      "test": "Bybit Order Placement",
+      "successful": 3,
+      "total": 3,
+      "success_rate": 100.0
+    },
+    {
+      "test": "Dual Entry Strategy",
+      "successful": 2,
+      "total": 2,
+      "success_rate": 100.0
+    },
+    {
+      "test": "Error Handling",
+      "successful": 1,
+      "total": 4,
+      "success_rate": 25.0
+    },
+    {
+      "test": "Rate Limiting",
+      "successful": 1,
+      "total": 1,
+      "success_rate": 100
+    }
+  ],
+  "api_status": {
+    "bitget_mock_mode": true,
+    "bybit_mock_mode": true,
+    "bitget_testnet": true,
+    "bybit_testnet": true
+  }
+}
